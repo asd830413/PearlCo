@@ -1,0 +1,580 @@
+header {
+  height: 80px;
+}
+
+#menu {
+    height: 80px;
+    border-top: 2px solid #00adff;
+    background: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.logoMenu {
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+}
+
+.logoFrame {
+    width: 31%;
+    height: 80px;
+    float: left;
+}
+
+.logoText {
+    height: 80px;
+}
+
+.logo img {
+    float: left;
+    width: 40%;
+    margin-left: 25%;
+}
+
+.slogan {
+    float: right;
+    width: 35%;
+    line-height: 40px;
+}
+
+.slogan p {
+    font-size: 14px;
+    color: #00adff;
+    letter-spacing: 1px;
+    font-weight: 100;
+    line-height: 10px;
+    padding: 1px;
+}
+
+.slogan h2 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #2c2a2a;
+}
+
+.menu-item {
+    float: right;
+    width: 69%;
+    text-align: right;
+    height: 80px;
+    line-height: 80px;
+}
+
+.menu-item ul{
+  display: inline;
+}
+
+.menu-item ul {
+  margin-right: 15%;
+}
+
+.menu-item li {
+  display: inline-block;
+  margin-right: 4%;
+  letter-spacing: 1.5px;
+}
+
+.menu-item  a {
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.menu-item li:hover {
+color: #00adff;}
+
+.landingPage img {
+  width: 100%;
+}
+
+.lp-1 {
+    height: 300px;
+    position: relative;
+}
+
+.lp-1 img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.lp-1 h1  {
+    position: absolute;
+    top: 30px;
+    left: 89px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.lp-1 p {
+    position: absolute;
+    top: 120px;
+    left: 109px;
+    letter-spacing: 6px;
+    font-size: 24px;
+    color: #DDD;
+}
+
+.lp-3 {
+    position: relative;
+}
+
+.lp-3 img {
+    width: 100%;
+}
+
+.surround {
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    color: white;
+    left: 5%;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.morning {
+    width: 10%;
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.morning p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.tea {
+  position: absolute;
+  bottom: 40%;
+  right: 10%;
+  width: 10%;
+}
+
+.tea p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.waterExercise {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+  width: 10%;
+}
+
+.waterExercise p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+
+.lp-4 {
+    position: relative;
+    height: 700px;
+}
+
+.lp-4 img {
+    position: absolute;
+    width: 100%;
+
+}
+
+.cleanOrNot {
+  position: absolute;
+  top: 10%;
+  left: 33%;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.basicNeed {
+  position: absolute;
+  left: 10%;
+  font-size: 25px;
+  color: #a8a1a1;
+  bottom: 10%;
+  }
+
+.lackOfClean {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  font-size: 30px;
+  color: #a8a1a1;
+  }
+
+.afraid {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.lp-5 {
+    position: relative;
+    height: 200px;
+}
+
+.lp-5 img {
+    position: absolute;
+    width: 100%;
+}
+
+.lp-5 p {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  font-size: 35px;
+  color: white;
+  }
+
+.lp-6 {
+  position: relative;
+  height: 700px;
+}
+
+.lp-6 img {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+}
+
+.lp-6 h2 {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.lp-6 h3 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.lp-6 p {
+  position: absolute;
+  left: 12%;
+  top: 30%;
+  font-size: 25px;
+  color: #a8a1a1;
+  }
+
+.lp-7 {
+  position: relative;
+  height: 700px;
+}
+
+.lp-7 img {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+}
+
+.lp-7 h2 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.lp-8 {
+  position: relative;
+  height: 200px;
+}
+
+.lp-8 img {
+  position: absolute;
+  width: 100%;
+}
+
+.lp-8 h2 {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  font-size: 35px;
+  color: white;
+}
+
+.lp-9 {
+  position: relative;
+  height: 700px;
+}
+
+.lp-9 img {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+}
+
+.waterReality {
+  position: absolute;
+  top: 10%;
+  left: 27%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.boiledWater {
+  position: absolute;
+  font-size: 30px;
+  color: #a8a1a1;
+  bottom: 20%;
+  left: 10%;
+  }
+
+.lp-10 {
+  position: relative;
+  height: 700px;
+}
+
+.lp-10 img {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+}
+
+.lp-10 h2 {
+  position: absolute;
+  left: 6%;
+  bottom: 15%;
+  font-size: 25px;
+  color: #a8a1a1;
+}
+
+.lp-10 p {
+  position: absolute;
+  left: 15%;
+  bottom: 15%;
+  font-size: 25px;
+  color: #a8a1a1;
+  }
+
+.lp-11 {
+  position: relative;
+  height: 700px;
+}
+
+.lp-11 img {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+}
+
+.lp-11 h2 {
+  position: absolute;
+  top: 10%;
+  left: 32%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.lp-11 p {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  font-size: 25px;
+  color: #a8a1a1;
+  }
+
+.lp-12 {
+  position: relative;
+  height: 700px;
+}
+
+.lp-12 img {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+}
+
+.lp-12 h2 {
+  position: absolute;
+  top: 10%;
+  left: 33%;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.lp-13 {
+  position: relative;
+  height: 700px;
+}
+
+.lp-13 img {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+}
+
+.lp-13 h2 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+footer {
+  margin: 20px auto 20px auto;
+  height: 120px;
+  background: white;
+  width: 100%;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+
+.contact-us {
+  width: 40%;
+  float: left;
+  display: inline-block;
+  line-height: 30px;
+  color: #706864;
+  letter-spacing: 2px;
+  font-size: 80%;
+}
+
+
+.contact-us img {
+  width: 40%;
+}
+
+.time {
+  width: 100%;
+
+}
+
+.mail {
+  background: #00BCD4;
+  width: 57%;
+  border-radius: 3px;
+}
+
+.mail a {
+  text-decoration: none;
+  color: white;
+  margin: auto 27%;
+  letter-spacing: 2px;
+}
+
+.aboutPearlco {
+  width: 30%;
+  float: left;
+  display: inline-block;
+  line-height: 30px;
+  color: #706864;
+  margin-left: 10%;
+
+}
+
+.aboutPearlco h2 {
+  font-size: 100%;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.aboutPearlco a {
+  text-decoration: none;
+  color: #706864;
+  font-size: 80%;
+  letter-spacing: 1px;
+}
+
+.socialMedia {
+  width: 20%;
+  display: inline-block;
+  line-height: 30px;
+  color: #706864;
+}
+
+.socialMedia h4 {
+  font-size: 100%;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.socialMedia a {
+  text-decoration: none;
+  color: #706864;
+  font-size: 80%;
+  letter-spacing: 1px;
+}
+
+
+
+/* .mobile_logo {
+  display: none;
+} */
+
+
+@media (max-width:768px){
+  .logo {
+  width: 100%;
+  display: block;
+  text-align: center;
+  left: 0;
+  }
+  .logo h2, .logo p{
+  display: none;
+  }
+/*   .mobile_logo {
+  display: block
+  } */
+}
+
+body { margin: 0; padding: 0; }
+img { display: block;  }
+
+@media (max-width:480px) {
+
+  #menu {
+  height: 170px;
+  border-top: 2px solid #00adff;
+  background: white;
+    }
+
+    .logoFrame {
+  width: 100%;
+  height: 80px;
+    }
+
+    .logo img {
+        width: 50%;
+        display: block;
+    }
+
+    .slogan {
+        display: none;
+    }
+
+    .menu-item {
+        text-align: center;
+        height: 90px;
+        line-height: 80px;
+        width: 100%
+    }
+
+    .menu-item ul {
+        margin: 0 auto;
+    }
+}

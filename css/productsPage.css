@@ -1,0 +1,139 @@
+body {
+  background: #efede8;
+}
+
+.introFrame {
+  width: 1024px;
+  margin: 20px auto 0 auto;
+}
+
+.introLeft {
+  width: 50%;
+  float: left;
+}
+
+.productInfo {
+  padding: 3%;
+}
+
+.productBackground {
+  background: #FFF;
+  border-radius: 5px;
+}
+
+.productBackground > .product {
+  width: 100%;
+}
+
+.productBackground > .title {
+  font-size: 24px;
+  border-bottom: 1px solid #efede8;
+  width: 80%;
+  margin: 0 auto;
+  background: white;
+  padding: 3%;
+}
+
+.introRight {
+  width: 50%;
+  float: right;
+}
+
+.priceInfo {
+  padding: 3%
+}
+
+.priceBorder {
+  border-radius: 5px;
+}
+
+.features {
+  margin-top: 5%;
+}
+
+.bg-w {
+  background: white;
+}
+
+.price {
+  text-align: center;
+  padding: 3%;
+}
+
+.price p {
+  padding: 3%;
+  border-bottom: 1.5px solid #efede8;
+  margin: 0 auto;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  width: 284px;
+  margin-bottom: 25px;
+  color: black;
+}
+
+
+.price span {
+  margin-left: 25px;
+  color: #f7422f;
+  font-size: 42px;
+}
+
+.buy-btn {
+  height: 20px;
+  padding: 3%;
+  background: #00BCD4;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.buy-btn a {
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.features > ul > li > i {
+  color: green;
+}
+
+.features > ul {
+  line-height: 50px
+}
+
+.productImagesFrame {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.productEntire {
+  width: 100%;
+  float: left;
+}
+
+.productImagesInfo {
+  padding: 1%;
+}
+
+.productImagesBorder {
+  background: white;
+  border-radius: 2px;
+}
+
+.productIntro {
+  margin-left: 2%;
+  line-height: 50px;
+}
+
+.productIntro P {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.productImages {
+  overflow: hidden;
+}
