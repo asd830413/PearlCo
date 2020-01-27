@@ -3,90 +3,94 @@ header {
 }
 
 #menu {
-    height: 80px;
-    border-top: 2px solid #00adff;
-    background: white;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    font-family: "微軟正黑體"
-
+  height: 80px;
+  border-top: 2px solid #00adff;
+  background: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  font-family: "微軟正黑體";
+  border-bottom: 1px inset #edeaea;
 }
 
 .logoMenu {
-    width: 100%;
-    height: 80px;
-    display: inline-block;
+  width: 100%;
+  height: 80px;
+  display: inline-block;
 }
 
 .logoFrame {
-    width: 31%;
-    height: 80px;
-    float: left;
+  width: 40%;
+  height: 80px;
+  float: left;
 }
 
 .logoText {
-    height: 80px;
+  height: 80px;
 }
 
+
 .logo img {
-    float: left;
-    width: 40%;
-    margin-left: 23%;
-    margin-top: 12px;
+  float: left;
+  width: 30%;
+  margin-left: 23%;
+  margin-top: 12px;
 }
 
 .slogan {
-    float: right;
-    width: 35%;
-    line-height: 40px;
+  float: right;
+  width: 35%;
+  line-height: 40px;
+  margin-right: 10%;
 }
 
 .slogan p {
-    font-size: 15px;
-    color: #00adff;
-    letter-spacing: 1px;
-    font-weight: 700;
-    line-height: 13px;
-    padding: 1px;
+  font-size: 15px;
+  color: #00adff;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 13px;
+  padding: 1px;
 }
 
 .slogan h2 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #2c2a2a;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c2a2a;
 }
 
 .menu-item {
-    float: right;
-    width: 69%;
-    text-align: right;
-    height: 80px;
-    line-height: 80px;
+  float: right;
+  width: 60%;
+  text-align: right;
+  height: 80px;
+  line-height: 80px;
 }
 
 .menu-item ul{
   display: inline;
-}
-
-.menu-item ul {
   margin-right: 15%;
 }
 
 .menu-item li {
-  display: inline-block;
-  margin-right: 4%;
-  letter-spacing: 1.5px;
+display: inline-block;
+    margin-right: 4%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #727272;
+}
+
+.menu-item i {
+  font-size: 18px;
 }
 
 .menu-item  a {
-    text-decoration: none;
-    letter-spacing: 0.5px;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .menu-item li:hover {
-color: #00adff;}
+  color: #00adff;}
 
 .landingPage img {
   width: 100%;
@@ -213,18 +217,24 @@ footer {
 
 
 @media (max-width:768px){
-  .logo {
-  width: 100%;
-  display: block;
-  text-align: center;
-  left: 0;
-  }
-  .logo h2, .logo p{
-  display: none;
-  }
-/*   .mobile_logo {
-  display: block
-  } */
+  .logo img {
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 50%;
+}
+
+    .slogan {
+      display: none;
+    }
+
+    .menu-item .brandStory {
+      display: none;
+    }
+
+    .menu-item ul {
+      margin-right: 5%;
+    }
+
 }
 
 body { margin: 0; padding: 0; }
@@ -232,34 +242,28 @@ img { display: block;  }
 
 @media (max-width:480px) {
 
-  #menu {
-  height: 170px;
-  border-top: 2px solid #00adff;
-  background: white;
-    }
-
-    .logoFrame {
-  width: 100%;
-  height: 80px;
-    }
 
     .logo img {
-        width: 50%;
-        display: block;
-    }
+    margin-left: 14%;
+    margin-top: 28px;
+    width: 70%;
+}
 
     .slogan {
-        display: none;
+      display: none;
     }
 
-    .menu-item {
-        text-align: center;
-        height: 90px;
-        line-height: 80px;
-        width: 100%
+    .menu-item .brandStory {
+      display: none;
     }
 
     .menu-item ul {
-        margin: 0 auto;
+      margin-right: 0;
     }
+
+    .menu-item li {
+      font-size: 11px;
+    }
+
 }
+
