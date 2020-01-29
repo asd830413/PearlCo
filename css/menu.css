@@ -1,3 +1,7 @@
+html {
+  width: 1519.2px;
+}
+
 header {
   height: 80px;
 }
@@ -98,28 +102,149 @@ display: inline-block;
 }
 
 .pearlcoPureWater {
-
+  text-align: center;
 }
+
+.pearlcoPureWaterText {
+  position: relative;
+  right: 27%;
+  top: 196px;
+}
+
+.pearlcoPureWaterText h1 {
+  font-size: 25px;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
 
 .pearlcoFilterIntro {
-
+  text-align: center;
 }
 
-.peralcoTasty {
+.pearlcoFilterTitle {
+  position: relative;
+  top: 100px;
+}
 
+.pearlcoFilterTitle h2 {
+  font-size: 40px;
+  color: #3d7bc0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.pearlcoTasty {
+  text-align: center;
+}
+
+.pearlcoTastyTop {
+  position: relative;
+  top: 160px;
+  line-height: 2;
+}
+
+.pearlcoTastyTop p{
+  font-size: 40px;
+  color: #3d7bc0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.pearlcoTastyTop h2 {
+  font-size: 25px;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.pearlcoTastyBottom {
+  position: relative;
+  bottom: 110px;
+  font-size: 25px;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 30px;
 }
 
 .pearlcoBottle {
 
 }
 
+.pearlcoBottleText {
+  text-align: center;
+}
+
+.bottleTitle {
+  font-size: 40px;
+  color: #3d7bc0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.bottleText {
+  font-size: 25px;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-top: 2%;
+  line-height: 30px;
+}
+
+
 .pearlcoCertificate {
 
 }
 
-.pearlcoHealthy {
-
+.pearlcoCertificateText {
+  text-align: center;
 }
+
+.certificateInfo {
+  margin-top: 2%;
+  line-height: 30px;
+}
+
+.pearlcoCertificateText p {
+
+  font-size: 40px;
+  color: #3d7bc0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.pearlcoCertificateText h2 {
+  font-size: 25px;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.pearlcoHealthy {
+}
+
+.pearlcoHealthyText {
+  text-align: center;
+  line-height: 60px;
+}
+
+.pearlcoHealthyText p {
+  font-size: 40px;
+  color: #3d7bc0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.pearlcoHealthyText h2 {
+  font-size: 25px;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+
 footer {
   margin: 20px auto 20px auto;
   height: 120px;
@@ -237,9 +362,6 @@ footer {
 
 }
 
-body { margin: 0; padding: 0; }
-img { display: block;  }
-
 @media (max-width:480px) {
 
 
@@ -265,5 +387,24 @@ img { display: block;  }
       font-size: 11px;
     }
 
+}
+
+@media (max-width:1200px){
+    .logo img {
+      margin-top: 20px;
+
+    }
+
+    .slogan {
+      line-height: 45px;
+    }
+
+    .slogan h2{
+      font-size: 16px;
+    }
+
+    .slogan p {
+      font-size: 13px;
+    }
 }
 
