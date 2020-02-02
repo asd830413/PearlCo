@@ -1,100 +1,91 @@
-html {
-  width: 1519.2px;
-}
-
 header {
-  height: 80px;
-}
+      border-top: 1px solid #4996eb;
+      font-family: "微軟正黑體";
+      border-bottom: 1px inset #edeaea;
 
-#menu {
-  height: 80px;
-  border-top: 2px solid #00adff;
-  background: white;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  font-family: "微軟正黑體";
-  border-bottom: 1px inset #edeaea;
-}
+    }
 
-.logoMenu {
-  width: 100%;
-  height: 80px;
-  display: inline-block;
-}
+    .container {
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px
+    }
 
-.logoFrame {
-  width: 40%;
-  height: 80px;
-  float: left;
-}
-
-.logoText {
-  height: 80px;
-}
+    body { margin: 0; padding: 0; }
+    .menu {
+      height: 80px;
+      background: white;
 
 
-.logo img {
-  float: left;
-  width: 30%;
-  margin-left: 23%;
-  margin-top: 12px;
-}
+    }
 
-.slogan {
-  float: right;
-  width: 35%;
-  line-height: 40px;
-  margin-right: 10%;
-}
+    .logoFrame {
+      display: table;
+      height: 80px;
+      float: left;
+      width: 40%;
+    }
 
-.slogan p {
-  font-size: 15px;
-  color: #00adff;
-  letter-spacing: 1px;
-  font-weight: 700;
-  line-height: 13px;
-  padding: 1px;
-}
+    .logo {
+      background: white;
+      display: table-cell;
+      vertical-align: middle;
+    }
 
-.slogan h2 {
-  font-size: 18px;
-  font-weight: bold;
-  color: #2c2a2a;
-}
+    .logo a {
+      text-decoration: none;
+    }
 
-.menu-item {
-  float: right;
-  width: 60%;
-  text-align: right;
-  height: 80px;
-  line-height: 80px;
-}
+    .logo img {
+      width: 200px;
+      height: 50px;
+      float: left;
+      margin-right: 10px;
+    }
 
-.menu-item ul{
-  display: inline;
-  margin-right: 15%;
-}
+    .logo h2 {
+      display: inline;
+      font-size: 18px;
+      font-weight: bold;
+      color: #2c2a2a;
+    }
 
-.menu-item li {
-display: inline-block;
-    margin-right: 4%;
-    letter-spacing: 2px;
-    font-size: 14px;
-    color: #727272;
-}
+    .logo p {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 0px;
+      color: #00adff;
+      letter-spacing: 1px;
+      font-weight: 700;
+    }
 
-.menu-item i {
-  font-size: 18px;
-}
+    .menuItem {
+      float: right;
+      width: 60%;
+      line-height: 65px;
+      text-align: right;
+    }
 
-.menu-item  a {
-  text-decoration: none;
-  color: black;
-}
+    .menuItem ul {
+      display: inline;
+    }
 
-.menu-item li:hover {
-  color: #00adff;}
+    .menuItem a {
+      text-decoration: none;
+    }
+
+    .menuItem li {
+      display: inline-block;
+      margin: 2%;
+      letter-spacing: 2px;
+      font-size: 14px;
+      color: #727272;
+    }
+
+    .menuItem li:hover {
+      color: #00adff;
+    }
 
 .landingPage img {
   width: 100%;
@@ -102,17 +93,19 @@ display: inline-block;
 }
 
 .pearlcoPureWater {
+  position: relative;
   text-align: center;
+  width: 100%;
 }
 
 .pearlcoPureWaterText {
-  position: relative;
-  right: 27%;
-  top: 196px;
+  position: absolute;
+  top: 28%;
+  left: 15%;
 }
 
 .pearlcoPureWaterText h1 {
-  font-size: 25px;
+  font-size: 32px;
   color: black;
   letter-spacing: 2px;
   font-weight: 600;
@@ -136,13 +129,17 @@ display: inline-block;
 }
 
 .pearlcoTasty {
+  position: relative;
   text-align: center;
 }
 
 .pearlcoTastyTop {
-  position: relative;
-  top: 160px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   line-height: 2;
+  width: 100%;
 }
 
 .pearlcoTastyTop p{
@@ -160,13 +157,16 @@ display: inline-block;
 }
 
 .pearlcoTastyBottom {
-  position: relative;
-  bottom: 110px;
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
   font-size: 25px;
   color: black;
   letter-spacing: 2px;
   font-weight: 600;
   line-height: 30px;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .pearlcoBottle {
@@ -175,6 +175,7 @@ display: inline-block;
 
 .pearlcoBottleText {
   text-align: center;
+  margin-top: 5%;
 }
 
 .bottleTitle {
@@ -244,94 +245,36 @@ display: inline-block;
   font-weight: 600;
 }
 
+.notification {
+  text-align: center;
+  height: 40px;
+}
+
+.notification i {
+  font-size: 24px;
+}
+
+.notification ul {
+  display: inline-block;
+  line-height: 40px;
+}
+
+.notification li {
+  display: inline;
+  margin: 8px;
+}
 
 footer {
-  margin: 20px auto 20px auto;
-  height: 120px;
-  background: white;
   width: 100%;
+  height: 25px;
+  background: #4996eb;
+  text-align: center;
+  line-height: 25px;
 }
 
-.container {
-  width: 1024px;
-  margin: 0 auto;
-}
-
-
-.contact-us {
-  width: 40%;
-  float: left;
-  display: inline-block;
-  line-height: 30px;
-  color: #706864;
-  letter-spacing: 2px;
-  font-size: 80%;
-}
-
-
-.contact-us img {
-  width: 40%;
-}
-
-.time {
-  width: 100%;
-
-}
-
-.mail {
-  background: #00BCD4;
-  width: 57%;
-  border-radius: 3px;
-}
-
-.mail a {
-  text-decoration: none;
+footer > p {
+  font-size: 12px;
   color: white;
-  margin: auto 27%;
-  letter-spacing: 2px;
-}
-
-.aboutPearlco {
-  width: 30%;
-  float: left;
-  display: inline-block;
-  line-height: 30px;
-  color: #706864;
-  margin-left: 10%;
-
-}
-
-.aboutPearlco h2 {
-  font-size: 100%;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-.aboutPearlco a {
-  text-decoration: none;
-  color: #706864;
-  font-size: 80%;
-  letter-spacing: 1px;
-}
-
-.socialMedia {
-  width: 20%;
-  display: inline-block;
-  line-height: 30px;
-  color: #706864;
-}
-
-.socialMedia h4 {
-  font-size: 100%;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-.socialMedia a {
-  text-decoration: none;
-  color: #706864;
-  font-size: 80%;
-  letter-spacing: 1px;
 }
 
 
@@ -340,71 +283,25 @@ footer {
   display: none;
 } */
 
+@media (min-width: 768px) {
+    .container {
+      width:750px;
 
-@media (max-width:768px){
-  .logo img {
-    margin-left: 20%;
-    margin-top: 20px;
-    width: 50%;
-}
-
-    .slogan {
-      display: none;
-    }
-
-    .menu-item .brandStory {
-      display: none;
-    }
-
-    .menu-item ul {
-      margin-right: 5%;
-    }
-
-}
-
-@media (max-width:480px) {
-
-
-    .logo img {
-    margin-left: 14%;
-    margin-top: 28px;
-    width: 70%;
-}
-
-    .slogan {
-      display: none;
-    }
-
-    .menu-item .brandStory {
-      display: none;
-    }
-
-    .menu-item ul {
-      margin-right: 0;
-    }
-
-    .menu-item li {
-      font-size: 11px;
-    }
-
-}
-
-@media (max-width:1200px){
-    .logo img {
-      margin-top: 20px;
 
     }
+  }
 
-    .slogan {
-      line-height: 45px;
+  @media (min-width: 992px) {
+    .container {
+      width:970px
     }
+  }
 
-    .slogan h2{
-      font-size: 16px;
+  @media (min-width: 1200px) {
+    .container {
+      width:1170px
     }
+  }
 
-    .slogan p {
-      font-size: 13px;
-    }
-}
+
 
