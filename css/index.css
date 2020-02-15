@@ -49,7 +49,7 @@ section {
   top: 20%;
   left: 9%;
   display: inline-block;
-  font-size: 40px;
+  font-size: 30px;
   color: #535353;
   font-weight: 600;
 }
@@ -72,6 +72,11 @@ section {
 
 .pearlcoFilterIntro {
   text-align: center;
+}
+
+.pearlcoFilterTitle {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .pearlcoFilterTitle h3 {
@@ -174,7 +179,8 @@ section {
 
 .pearlcoTastyTop {
   line-height: 2;
-  margin-bottom: 40px;
+  width: 80%;
+  margin: 0 auto 40px auto;
 }
 
 .pearlcoTastyTop p {
@@ -215,7 +221,8 @@ section {
 
 .pearlcoBottleText {
   text-align: center;
-  margin-bottom: 40px;
+  width: 80%;
+  margin: 0 auto 40px auto;
 }
 
 .bottleTitle {
@@ -475,19 +482,19 @@ section {
   }
 
   .pearlcoPureWaterText h1 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .pearlcoPureWaterText p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .pearlcoFilterTitle h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .pearlcoFilterTitle p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .filterContainer {
@@ -495,7 +502,7 @@ section {
   }
 
   .filterIcons {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .filterIcons img {
@@ -503,31 +510,31 @@ section {
   }
 
   .pearlcoTastyTop p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .pearlcoTastyTop h2 {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .pearlcoTastyBottom p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .bottleTitle {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .bottleText {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .pearlcoCertificateText p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .pearlcoCertificateText h2 {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .certificateIcons {
@@ -543,11 +550,11 @@ section {
   }
 
   .pearlcoHealthyText p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .pearlcoHealthyText h2 {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -557,16 +564,21 @@ section {
     margin-top: 40px;
   }
 
+  .pearlcoPureWaterText {
+    top: 10%;
+    left: 10%;
+  }
+
   .pearlcoPureWaterText h1 {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .pearlcoPureWaterText p {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .pearlcoFilterTitle h3 {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .pearlcoFilterTitle p {
@@ -578,7 +590,7 @@ section {
   }
 
   .filterIcons {
-    font-size: 12px;
+    font-size: 10px;
     margin: 0 auto;
   }
 
@@ -587,7 +599,7 @@ section {
   }
 
   .pearlcoTastyTop p {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .pearlcoTastyTop h2 {
@@ -599,7 +611,7 @@ section {
   }
 
   .bottleTitle {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .bottleText {
@@ -607,7 +619,7 @@ section {
   }
 
   .pearlcoCertificateText p {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .pearlcoCertificateText h2 {
@@ -615,7 +627,7 @@ section {
   }
 
   .certificateIcons {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .certificateIcons img {
@@ -631,12 +643,17 @@ section {
   }
 
   .pearlcoHealthyText p {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .pearlcoHealthyText h2 {
-    font-size: 11.5px;
+    font-size: 10px;
   }
+
+  .certificateIcons {
+    font-size: 12px;
+  }
+
 }
 
 @media (max-width: 479.98px) {

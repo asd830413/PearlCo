@@ -32,7 +32,7 @@ header {
       display: table;
       height: 58px;
       float: left;
-      width: 40%;
+      width: 44%;
     }
 
     .logo {
@@ -68,7 +68,7 @@ header {
 
     .menuItem {
       float: right;
-      width: 60%;
+      width: 56%;
       line-height: 58px;
       text-align: right;
     }
