@@ -1,5 +1,5 @@
 body {
-  background: #efede8;
+  background: #f2f2f259;
 }
 
 header {
@@ -7,7 +7,7 @@ header {
 }
 
 .content {
-
+  margin-top: 58px;
 }
 
 .introFrame {
@@ -29,17 +29,19 @@ header {
   border-radius: 5px;
 }
 
-.productBackground > .product {
+.product img {
   width: 100%;
 }
 
-.productBackground > .title {
-  font-size: 24px;
+.title {
+  font-size: 20px;
   border-bottom: 1px solid #efede8;
   width: 80%;
   margin: 0 auto;
   background: white;
   padding: 3%;
+  letter-spacing: 1.5px;
+  color: #666666;
 }
 
 .introRight {
@@ -53,6 +55,7 @@ header {
 
 .priceBorder {
   border-radius: 5px;
+  padding: 5px;
 }
 
 .features {
@@ -62,50 +65,89 @@ header {
 
 }
 
+.features p {
+  display: inline;
+}
+
+.features i {
+  margin-right: 3px;
+}
+
 .bg-w {
   background: white;
 }
 
-.price {
-  text-align: center;
-  padding: 3%;
+.allPrice {
+  display: inline;
+  font-size: 18px;
+  color: #666666;
+  letter-spacing: 1.5px;
+  line-height: 60px;
 }
 
-.price p {
-  padding: 3%;
-  border-bottom: 1.5px solid #efede8;
+.allPrice p {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  margin: 0 5% 0 3%;
+}
+
+.allPrice span {
+  float: left;
+}
+
+.originalPrice {
+  width: 80%;
   margin: 0 auto;
-  height: 50px;
-  line-height: 50px;
-  font-size: 20px;
-  width: 284px;
-  margin-bottom: 25px;
-  color: black;
+  clear: both;
 }
 
+.originalPrice span {
+  text-decoration: line-through;
+}
 
-.price span {
-  margin-left: 25px;
-  color: #f7422f;
-  font-size: 42px;
+.discount {
+  border-bottom: 1px solid #eee;
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+}
+
+.discount span {
+  font-size: 22px;
+  color: #f3c500;
+  font-weight: bold;
+}
+
+.productSize {
+  border-bottom: 1px solid #eee;
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
 }
 
 .buy-btn {
-  height: 10px;
-  padding: 3%;
-  background: #00BCD4;
+  background: #4996eb;
   width: 80%;
-  margin: 0 auto;
+  margin: 5% auto;
   border-radius: 5px;
+  clear: both;
+  line-height: 40px;
+  text-align: center;
+}
+
+.buy-btn:hover {
+  opacity: 0.8;
 }
 
 .buy-btn a {
+  display: block;
   color: #ffffff;
   text-decoration: none;
-  line-height: 10px;
-  font-size: 20px;
-  font-weight: 900;
-  letter-spacing: 1px;
+  line-height: 40px;
+  font-size: 16px;
+  letter-spacing: 5px;
+  height: 40px;
 }
 
 .features i {
@@ -113,7 +155,7 @@ header {
 }
 
 .features ul {
-  line-height: 35px;
+  line-height: 40px;
   margin-left: 10px;
   letter-spacing: 1px;
 }
@@ -142,24 +184,27 @@ header {
 }
 
 .productIntro {
-  text-align: center;
-  line-height: 50px;
-  background: #4996eb;
+  text-align: left;
+  line-height: 30px;
+  background: white;
 }
 
 .productIntro P {
-  font-size: 18px;
-  font-weight: 900;
+  font-size: 14px;
   color: white;
+  background: #4996eb;
   letter-spacing: 2px;
+  border: 1px solid #4996eb;
+  margin-right: 20px;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  height: 30px;
+  padding: 0 15px;
+  display: inline-block;
 }
 
 .productImages {
   overflow: hidden;
-}
-
-.productImages section {
-  margin-top: 5%;
 }
 
 .productImages img {
@@ -167,25 +212,98 @@ header {
   height: auto;
 }
 
-.astraText {
-  position: relative;
-  text-align: center;
+@media (min-width: 375px) and (max-width: 479.98px) {
+
+.introFrame {
+  width: 365px;
 }
 
-.astraText h1 {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  font-size: 40px;
-  letter-spacing: 1px;
-  color: black;
+.introLeft {
+  width: 100%;
 }
 
-.astraText p {
-  position: absolute;
-  top: 25%;
-  left: 10%;
-  font-size: 25px;
-  letter-spacing: 2px;
-  color: black;
+.introRight {
+  width: 100%;
+}
+
+.features li {
+  font-size: 12px;
+}
+
+.productImagesFrame {
+  width: 365px;
+}
+
+}
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+
+.introFrame {
+  width: 470px;
+}
+
+.introLeft {
+  width: 100%;
+}
+
+.introRight {
+  width: 100%;
+}
+
+.productImagesFrame {
+  width: 470px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+.introFrame {
+  width: 560px;
+}
+
+.introLeft {
+  width: 100%;
+}
+
+.introRight {
+  width: 100%;
+}
+
+.productImagesFrame {
+  width: 560px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.introFrame {
+  width: 750px;
+}
+
+.introLeft {
+  width: 100%;
+}
+
+.introRight {
+  width: 100%;
+}
+
+.productImagesFrame {
+  width: 750px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+
+.introFrame {
+  width: 950px;
+}
+
+.productImagesFrame {
+  width: 950px;
+}
+
 }

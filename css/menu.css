@@ -1,7 +1,12 @@
 header {
-      border-top: 1px solid #4996eb;
-      font-family: "微軟正黑體";
-      border-bottom: 1px inset #edeaea;
+      border-top: 2px solid #4996eb;
+      box-shadow: 0 0 4px 0 #666666;
+      position: fixed;
+      height: 58px;
+      width: 100%;
+      top: 0;
+      background: white;
+      z-index: 1000;
 
     }
 
@@ -12,9 +17,12 @@ header {
       padding-right: 15px
     }
 
-    body { margin: 0; padding: 0; }
+    body {
+      margin: 0; padding: 0;
+    }
+
     .menu {
-      height: 80px;
+      height: 58px;
       background: white;
 
 
@@ -22,7 +30,7 @@ header {
 
     .logoFrame {
       display: table;
-      height: 80px;
+      height: 58px;
       float: left;
       width: 40%;
     }
@@ -38,32 +46,30 @@ header {
     }
 
     .logo img {
-      width: 200px;
-      height: 50px;
+      width: 130px;
       float: left;
       margin-right: 10px;
     }
 
     .logo h2 {
       display: inline;
-      font-size: 18px;
-      font-weight: bold;
-      color: #2c2a2a;
+      font-size: 16px;
+      color: #666666;
     }
 
     .logo p {
-      display: inline-block;
-      font-size: 14px;
-      line-height: 0px;
-      color: #00adff;
-      letter-spacing: 1px;
-      font-weight: 700;
+      font-size: 12px;
+      line-height: 20px;
+      color: #4996eb;
+      letter-spacing: 1.5px;
+      font-style: oblique;
+      font-weight: 600;
     }
 
     .menuItem {
       float: right;
       width: 60%;
-      line-height: 65px;
+      line-height: 58px;
       text-align: right;
     }
 
@@ -77,205 +83,18 @@ header {
 
     .menuItem li {
       display: inline-block;
-      margin: 2%;
+      margin-left:5%;
       letter-spacing: 2px;
       font-size: 14px;
       color: #727272;
     }
 
     .menuItem li:hover {
-      color: #00adff;
+      color: #4996eb;
     }
 
-.landingPage img {
-  width: 100%;
-  height: auto;
-}
-
-.pearlcoPureWater {
-  position: relative;
-  text-align: center;
-  width: 100%;
-}
-
-.pearlcoPureWaterText {
-  position: absolute;
-  top: 28%;
-  left: 15%;
-}
-
-.pearlcoPureWaterText h1 {
-  font-size: 32px;
-  color: black;
-  letter-spacing: 2px;
-  font-weight: 600;
-}
 
 
-.pearlcoFilterIntro {
-  text-align: center;
-}
-
-.pearlcoFilterTitle {
-  position: relative;
-  top: 100px;
-}
-
-.pearlcoFilterTitle h2 {
-  font-size: 40px;
-  color: #3d7bc0;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-.pearlcoTasty {
-  position: relative;
-  text-align: center;
-}
-
-.pearlcoTastyTop {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  line-height: 2;
-  width: 100%;
-}
-
-.pearlcoTastyTop p{
-  font-size: 40px;
-  color: #3d7bc0;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-.pearlcoTastyTop h2 {
-  font-size: 25px;
-  color: black;
-  letter-spacing: 2px;
-  font-weight: 600;
-}
-
-.pearlcoTastyBottom {
-  position: absolute;
-  bottom: 3%;
-  left: 50%;
-  font-size: 25px;
-  color: black;
-  letter-spacing: 2px;
-  font-weight: 600;
-  line-height: 30px;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-
-.pearlcoBottle {
-
-}
-
-.pearlcoBottleText {
-  text-align: center;
-  margin-top: 5%;
-}
-
-.bottleTitle {
-  font-size: 40px;
-  color: #3d7bc0;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-.bottleText {
-  font-size: 25px;
-  color: black;
-  letter-spacing: 2px;
-  font-weight: 600;
-  margin-top: 2%;
-  line-height: 30px;
-}
-
-
-.pearlcoCertificate {
-
-}
-
-.pearlcoCertificateText {
-  text-align: center;
-}
-
-.certificateInfo {
-  margin-top: 2%;
-  line-height: 30px;
-}
-
-.pearlcoCertificateText p {
-
-  font-size: 40px;
-  color: #3d7bc0;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-.pearlcoCertificateText h2 {
-  font-size: 25px;
-  color: black;
-  letter-spacing: 2px;
-  font-weight: 600;
-}
-
-.pearlcoHealthy {
-}
-
-.pearlcoHealthyText {
-  text-align: center;
-  line-height: 60px;
-}
-
-.pearlcoHealthyText p {
-  font-size: 40px;
-  color: #3d7bc0;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-.pearlcoHealthyText h2 {
-  font-size: 25px;
-  color: black;
-  letter-spacing: 2px;
-  font-weight: 600;
-}
-
-.notification {
-  text-align: center;
-  height: 40px;
-}
-
-.notification i {
-  font-size: 24px;
-}
-
-.notification ul {
-  display: inline-block;
-  line-height: 40px;
-}
-
-.notification li {
-  display: inline;
-  margin: 8px;
-}
-
-footer {
-  width: 100%;
-  height: 25px;
-  background: #4996eb;
-  text-align: center;
-  line-height: 25px;
-}
-
-footer > p {
-  font-size: 12px;
-  color: white;
-}
 
 
 
@@ -283,23 +102,130 @@ footer > p {
   display: none;
 } */
 
+@media (min-width: 375px) and (max-width: 479.98px) {
+
+  .container {
+    width: 360px;
+  }
+
+  .logoFrame {
+      width: 20%;
+    }
+
+    .logo h2 {
+      display: none;
+    }
+
+    .logo p {
+      display: none;
+    }
+
+    .logo img {
+      width: 50px;
+    }
+
+    .menuItem {
+      width: 80%;
+    }
+
+    .menuItem li {
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+
+  .container {
+    width: 460px;
+  }
+
+  .logoFrame {
+      width: 20%;
+    }
+
+    .logo h2 {
+      display: none;
+    }
+
+    .logo p {
+      display: none;
+    }
+
+    .logo img {
+      width: 80px;
+    }
+
+    .menuItem {
+      width: 80%;
+    }
+
+    .menuItem li {
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+      width:500px;
+    }
+
+    .logoFrame {
+      width: 30%;
+    }
+
+    .logo h2 {
+      display: none;
+    }
+
+    .logo p {
+      display: none;
+    }
+
+    .menuItem {
+      width: 70%;
+    }
+
+    .menuItem li {
+      font-size: 13px;
+    }
+
+  }
+
 @media (min-width: 768px) {
     .container {
-      width:750px;
+      width:700px;
 
 
     }
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
     .container {
       width:970px
     }
+
+.logoFrame {
+  width: 35%;
+  margin-left: 5%;
+}
+
+.menuItem {
+  width: 55%;
+  margin-right: 5%;
+}
+
   }
+
+
 
   @media (min-width: 1200px) {
     .container {
-      width:1170px
+      width:1000px
     }
   }
 

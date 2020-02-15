@@ -1,0 +1,652 @@
+.content {
+  margin-top: 58px;
+}
+
+body { font-family: sans-serif; }
+
+/* prevent vertical scroll bar glitch */
+html { overflow-y: scroll; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.landingPage img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  margin-top: 50px;
+}
+
+.pearlcoPureWater {
+  position: relative;
+  text-align: center;
+}
+
+.pearlcoPureWaterText {
+  position: absolute;
+  top: 20%;
+  left: 9%;
+  display: inline-block;
+  font-size: 40px;
+  color: #535353;
+  font-weight: 600;
+}
+
+.pearlcoPureWaterText h1 {
+  letter-spacing: 2px;
+  display: inline;
+}
+
+.noOne {
+  letter-spacing: 2px;
+  display: inline;
+}
+
+
+.filterContainer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.pearlcoFilterIntro {
+  text-align: center;
+}
+
+.pearlcoFilterTitle h3 {
+  font-size: 40px;
+  color: #3d7bc0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.pearlcoFilterTitle p {
+  font-size: 25px;
+  color: #666;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-top: 3%;
+}
+
+.m_filter {
+  display: none;
+}
+
+.filterFiveStages {
+  position: relative;
+  margin-top: 5%;
+}
+
+.fiveStages {
+  text-align: left;
+}
+
+.fiveStages img {
+  width: 80px;
+}
+
+.stages {
+  position: absolute;
+  bottom: 0;
+  line-height: 32px;
+}
+
+.stages img {
+  float: left;
+  margin-right: 10px;
+}
+
+.stages li {
+  width: 400px;
+  display: block;
+  height: 110px;
+  background: white;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.stages h3 {
+  left: 3px;
+}
+
+.stages b {
+  font-weight: bold;
+  color: #666;
+  font-size: 20px;
+}
+
+.stages span {
+  color: #3d7bc0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.stages p {
+  color: #666;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+.filterFeatures {
+  text-align: center;
+}
+
+.filterIcons {
+  display: inline-block;
+  margin: 0 15px 30px 15px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  color: #666;
+}
+
+.filterIcons img {
+  width: 300px;
+}
+
+.pearlcoTasty {
+  text-align: center;
+}
+
+.pearlcoTastyTop {
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+.pearlcoTastyTop p {
+  font-size: 40px;
+  color: #3d7bc0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.pearlcoTastyTop h2 {
+  font-size: 25px;
+  color: #666;
+  letter-spacing: 2px;
+}
+
+.pearlcoTastyBottom {
+  line-height: 40px;
+  margin: 48px auto 0 auto;
+}
+
+.pearlcoTastyBottom p {
+  max-width: 785px;
+  text-align: justify;
+  display: inline-block;
+  width: 80%;
+  border-left: 6px solid #4996eb;
+  padding-left: 18px;
+  font-size: 25px;
+  color: #666;
+  letter-spacing: 2px;
+
+
+}
+
+.pearlcoBottle {
+  margin-top: 90px;
+}
+
+.pearlcoBottleText {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.bottleTitle {
+  font-size: 40px;
+  color: #3d7bc0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.bottleText {
+  font-size: 25px;
+  color: #666;
+  letter-spacing: 2px;
+  margin-top: 2%;
+  line-height: 40px;
+}
+
+.pearlcoCertificateText {
+  text-align: center;
+  margin-top: 104px;
+}
+
+.certificateInfo {
+  margin-top: 2%;
+  line-height: 40px;
+}
+
+.certificateInfo h2 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.pearlcoCertificateText p {
+  font-size: 40px;
+  color: #3d7bc0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.pearlcoCertificateText h2 {
+  font-size: 25px;
+  color: #666;
+  letter-spacing: 2px;
+}
+
+.certificateImg {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.certificateIcons {
+  display: inline-block;
+  margin: 0 15px 30px 15px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  color: #666;
+}
+
+.certificateIcons img {
+  width: 310px;
+}
+
+.pearlcoHealthy {
+}
+
+.pearlcoHealthyText {
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.pearlcoHealthyText p {
+  font-size: 40px;
+  color: #3d7bc0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.pearlcoHealthyText h2 {
+  font-size: 25px;
+  color: #666;
+  letter-spacing: 2px;
+}
+
+
+@media (max-width: 1200px) {
+
+  .pearlcoPureWaterText h1 {
+    font-size: 30px;
+  }
+
+  .pearlcoPureWaterText p {
+    font-size: 30px;
+  }
+
+  .pearlcoFilterTitle h3 {
+    font-size: 32px;
+  }
+
+  .pearlcoFilterTitle p {
+    font-size: 22px;
+  }
+
+  .filterContainer {
+    width: 980px;
+  }
+
+  .stage b {
+    font-size: 18px;
+  }
+
+  .stage span {
+    font-size: 18px;
+  }
+
+  .stage p {
+    font-size: 16px;
+  }
+
+  .stages li {
+    width: 380px;
+    height: 96px;
+    margin-left: 10px;
+  }
+
+  .pearlcoTastyTop p {
+    font-size: 32px;
+  }
+
+  .pearlcoTastyTop h2 {
+    font-size: 22px;
+  }
+
+  .bottleTitle {
+    font-size: 32px;
+  }
+
+  .bottleText {
+    font-size: 22px;
+  }
+
+  .pearlcoCertificateText p {
+    font-size: 32px;
+  }
+
+  .pearlcoCertificateText h2 {
+    font-size: 22px;
+  }
+
+  .certificateIcons img {
+    width: 290px;
+  }
+
+  .pearlcoHealthyText p {
+    font-size: 32px;
+  }
+
+  .pearlcoHealthyText h2 {
+    font-size: 22px;
+  }
+}
+
+
+@media (max-width: 991.98px) {
+  .filter {
+    display: none;
+  }
+
+  .stages {
+    display: none;
+  }
+
+  .m_filter {
+    display: block;
+  }
+
+  .pearlcoPureWaterText h1 {
+    font-size: 24px;
+  }
+
+  .pearlcoPureWaterText p {
+    font-size: 24px;
+  }
+
+  .pearlcoFilterTitle h3 {
+    font-size: 26px;
+  }
+
+  .pearlcoFilterTitle p {
+    font-size: 19px;
+  }
+
+  .filterContainer {
+    width: 750px;
+  }
+
+  .filterIcons img {
+    width: 220px;
+  }
+
+  .pearlcoTastyTop p {
+    font-size: 26px;
+  }
+
+  .pearlcoTastyTop h2 {
+    font-size: 19px;
+  }
+
+  .pearlcoTastyBottom p {
+    font-size: 19px;
+  }
+
+  .bottleTitle {
+    font-size: 26px;
+  }
+
+  .bottleText {
+    font-size: 19px;
+  }
+
+  .pearlcoCertificateText p {
+    font-size: 26px;
+  }
+
+  .pearlcoCertificateText h2 {
+    font-size: 19px;
+  }
+
+  .certificateIcons {
+    font-size: 16px;
+  }
+
+  .certificateIcons img {
+    width: 200px;
+  }
+
+  .pearlcoHealthy {
+    margin-top: 0;
+  }
+
+
+  .pearlcoHealthyText p {
+    font-size: 26px;
+  }
+
+  .pearlcoHealthyText h2 {
+    font-size: 19px;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+
+  section {
+    margin-top: 50px;
+  }
+
+  .pearlcoPureWaterText h1 {
+    font-size: 20px;
+  }
+
+  .pearlcoPureWaterText p {
+    font-size: 20px;
+  }
+
+  .pearlcoFilterTitle h3 {
+    font-size: 20px;
+  }
+
+  .pearlcoFilterTitle p {
+    font-size: 14px;
+  }
+
+  .filterContainer {
+    width: 560px;
+  }
+
+  .filterIcons {
+    font-size: 14px;
+  }
+
+  .filterIcons img {
+    width: 158px;
+  }
+
+  .pearlcoTastyTop p {
+    font-size: 20px;
+  }
+
+  .pearlcoTastyTop h2 {
+    font-size: 14px;
+  }
+
+  .pearlcoTastyBottom p {
+    font-size: 14px;
+  }
+
+  .bottleTitle {
+    font-size: 20px;
+  }
+
+  .bottleText {
+    font-size: 14px;
+  }
+
+  .pearlcoCertificateText p {
+    font-size: 20px;
+  }
+
+  .pearlcoCertificateText h2 {
+    font-size: 14px;
+  }
+
+  .certificateIcons {
+    font-size: 12.5px;
+  }
+
+  .certificateIcons img {
+    width: 145px;
+  }
+
+  .pearlcoHealthy {
+    margin-top: 0;
+  }
+
+  .pearlcoHealthyText p {
+    font-size: 20px;
+  }
+
+  .pearlcoHealthyText h2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  section {
+    margin-top: 40px;
+  }
+
+  .pearlcoPureWaterText h1 {
+    font-size: 18px;
+  }
+
+  .pearlcoPureWaterText p {
+    font-size: 18px;
+  }
+
+  .pearlcoFilterTitle h3 {
+    font-size: 16px;
+  }
+
+  .pearlcoFilterTitle p {
+    font-size: 10px;
+  }
+
+  .filterContainer {
+    width: 475px;
+  }
+
+  .filterIcons {
+    font-size: 12px;
+    margin: 0 auto;
+  }
+
+  .filterIcons img {
+    width: 118px;
+  }
+
+  .pearlcoTastyTop p {
+    font-size: 16px;
+  }
+
+  .pearlcoTastyTop h2 {
+    font-size: 10px;
+  }
+
+  .pearlcoTastyBottom p {
+    font-size: 10px;
+  }
+
+  .bottleTitle {
+    font-size: 16px;
+  }
+
+  .bottleText {
+    font-size: 10px;
+  }
+
+  .pearlcoCertificateText p {
+    font-size: 16px;
+  }
+
+  .pearlcoCertificateText h2 {
+    font-size: 10px;
+  }
+
+  .certificateIcons {
+    font-size: 16px;
+  }
+
+  .certificateIcons img {
+    width: 260px;
+  }
+
+  .pearlcoHealthy {
+    margin-top: 0;
+  }
+
+  .pearlcoHealthyText {
+    line-height: 40px;
+  }
+
+  .pearlcoHealthyText p {
+    font-size: 16px;
+  }
+
+  .pearlcoHealthyText h2 {
+    font-size: 11.5px;
+  }
+}
+
+@media (max-width: 479.98px) {
+
+  .filterContainer {
+    width: 375px;
+  }
+
+}
+
+
+
+

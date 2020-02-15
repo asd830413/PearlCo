@@ -1,3 +1,314 @@
+.story {
+  width: 1200px;
+  margin: 12% auto 0 auto;
+}
+
 .story img {
   width: 100%;
+  height: auto;
+}
+
+.story section {
+  width: 100%;
+}
+
+.pearlcoOrigin {
+  height: 250px;
+}
+
+.originImage {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+
+.originText {
+  width: 45%;
+  float: right;
+  margin-left: 5%;
+}
+
+.originText h3 {
+  font-size: 32px;
+  letter-spacing: 5px;
+  line-height: 70px;
+  color: #3d7bc0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.originText h2 {
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  color: #555555;
+  line-height: 70px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.originText p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: #666666;
+}
+
+.m_pearlcoOrigin {
+  display: none;
+}
+
+.pearlcoAim {
+  margin-top: 118px;
+}
+
+.pearlcoAim h2 {
+  font-size: 32px;
+  letter-spacing: 2px;
+  line-height: 70px;
+  color: #3d7bc0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.aim {
+  width: 78%;
+  margin: 23px auto 0 auto;
+}
+
+.aim p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: #666666;
+  text-align: center;
+}
+
+.pearlcoInnovation {
+  margin: 6% 0;
+}
+
+.pearlcoInnovation h2 {
+  font-size: 32px;
+  letter-spacing: 2px;
+  line-height: 70px;
+  color: #3d7bc0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.innovationText {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.innovationText p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: #666666;
+  text-align: center;
+}
+
+
+@media (min-width: 375px) and (max-width: 575.98px) {
+  .story {
+    width: 365px;
+    margin: 20% auto 0 auto;
+  }
+
+  .pearlcoOrigin {
+    display: none;
+  }
+
+  .m_pearlcoOrigin {
+    display: block;
+  }
+
+  .m_pearlcoOrigin h3 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: #3d7bc0;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .m_pearlcoOrigin h2 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: #666666;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .m_pearlcoOriginText {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .m_pearlcoOriginText p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #666666;
+    text-align: center;
+  }
+
+.pearlcoAim {
+  margin-top: 0%;
+}
+
+.pearlcoAim h2 {
+  font-size: 20px;
+  margin-top: 6%;
+}
+
+.aim p {
+  font-size: 12px;
+}
+
+.pearlcoInnovation h2 {
+  font-size: 20px;
+}
+
+.innovationText p {
+  font-size: 12px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .story {
+    width: 560px;
+    margin: 20% auto 0 auto;
+  }
+
+  .originImage {
+    margin: 8% 2% 0 0;
+  }
+
+  .originText {
+    width: 45%;
+    margin-left: 5%;
+  }
+
+  .originText h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.originText h2 {
+  font-size: 16px;
+  line-height: 50px;
+}
+
+.originText p {
+  font-size: 12px;
+}
+
+.pearlcoAim {
+  margin-top: 0%;
+}
+
+.pearlcoAim h2 {
+  font-size: 20px;
+}
+
+.aim p {
+  font-size: 12px;
+}
+
+.pearlcoInnovation h2 {
+  font-size: 20px;
+}
+
+.innovationText p {
+  font-size: 12px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .story {
+    width: 750px;
+  }
+
+  .originText {
+    width: 45%;
+    margin-left: 5%;
+  }
+
+  .originText h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.originText h2 {
+  font-size: 16px;
+  line-height: 50px;
+}
+
+.originText p {
+  font-size: 12px;
+}
+
+.pearlcoAim {
+  margin-top: 0%;
+}
+
+.pearlcoAim h2 {
+  font-size: 20px;
+}
+
+.aim p {
+  font-size: 12px;
+}
+
+.pearlcoInnovation h2 {
+  font-size: 20px;
+}
+
+.innovationText p {
+  font-size: 12px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .story {
+    width: 980px;
+  }
+
+.originText h3 {
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.originText h2 {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.originText p {
+  font-size: 16px;
+}
+
+.pearlcoAim h2 {
+  font-size: 24px;
+}
+
+.aim p {
+  font-size: 16px;
+}
+
+.pearlcoInnovation h2 {
+  font-size: 24px;
+}
+
+.innovationText p {
+  font-size: 16px;
+}
+
 }

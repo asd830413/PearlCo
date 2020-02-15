@@ -1,0 +1,69 @@
+.contactUs {
+  margin-top: 100px;
+  line-height: 60px;
+  letter-spacing: 2px;
+}
+
+.containerContact {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.contactInfo {
+  margin-top: 30px;
+}
+
+.contactInfo h1 {
+  color: #3d7bc0;
+  font-size: 24px;
+}
+
+@media (max-width: 991.98px) {
+  .containerContact {
+  width: 800px;
+ }
+  iframe {
+   width: 700px;
+   height: 550px;
+ }
+}
+
+@media (max-width: 767.98px) {
+  .containerContact {
+  width: 570px;
+ }
+  iframe {
+   width: 500px;
+   height: 350px;
+ }
+}
+
+@media (max-width: 575.98px) {
+  .containerContact {
+  width: 475px;
+ }
+
+  iframe {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .containerContact {
+  width: 360px;
+ }
+
+  iframe {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+

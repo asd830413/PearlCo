@@ -1,10 +1,6 @@
-body {
-  background: white;
-}
-
 .content {
-  background: #efede8;
-
+  background: #f2f2f259;
+  margin-top: 58px;
 }
 
 .productsFrame {
@@ -42,7 +38,6 @@ body {
 .productsList section {
   position: relative;
   text-align: center;
-  margin-top: 3px;
 }
 
 .productsList h2 {
@@ -50,7 +45,7 @@ body {
   top: 50%;
   left: 10%;
   color: black;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -60,17 +55,75 @@ body {
   height: auto;
 }
 
-.productsLists img:hover {
+.productsList section:hover {
   opacity: 0.8;
 }
 
-@media (min-width: 768px) {
-    .productsFrame {
-      width:750px;
 
+@media (min-width: 375px) and (max-width: 479.98px) {
 
-    }
+  .productsTitle h1 {
+    font-size: 13px;
   }
+
+  .productsList h2 {
+    font-size: 12px;
+    left: 2%;
+    letter-spacing: 1px;
+  }
+
+  .productsFrame {
+      width:365px;
+  }
+
+}
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+
+  .productsTitle h1 {
+    font-size: 15px;
+  }
+
+  .productsList h2 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    left: 5%;
+  }
+
+  .productsFrame {
+      width:470px;
+  }
+
+}
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+
+  .productsTitle h1 {
+    font-size: 17px;
+  }
+
+  .productsList h2 {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+
+  .productsFrame {
+      width:560px;
+  }
+
+}
+
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+  .productsList h2 {
+    font-size: 22px;
+  }
+
+  .productsFrame {
+      width:750px;
+  }
+
+}
 
   @media (min-width: 992px) {
     .productsFrame {
@@ -78,8 +131,3 @@ body {
     }
   }
 
-  @media (min-width: 1200px) {
-    .productsFrame {
-      width:1170px
-    }
-  }
