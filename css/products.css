@@ -67,7 +67,7 @@
   }
 
   .productsList h2 {
-    font-size: 12px;
+    font-size: 10px;
     left: 2%;
     letter-spacing: 1px;
   }
@@ -85,7 +85,7 @@
   }
 
   .productsList h2 {
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 1px;
     left: 5%;
   }
@@ -103,7 +103,7 @@
   }
 
   .productsList h2 {
-    font-size: 17px;
+    font-size: 14px;
     letter-spacing: 1px;
   }
 
@@ -116,7 +116,7 @@
 
   @media (min-width: 768px) and (max-width: 991.98px) {
   .productsList h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .productsFrame {
