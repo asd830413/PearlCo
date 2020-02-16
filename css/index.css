@@ -2,9 +2,9 @@
   margin-top: 58px;
 }
 
-body { font-family: sans-serif; }
+/* body { font-family: sans-serif; }
 
-/* prevent vertical scroll bar glitch */
+
 html { overflow-y: scroll; }
 
 .carousel {
@@ -20,7 +20,6 @@ html { overflow-y: scroll; }
   counter-increment: gallery-cell;
 }
 
-/* cell number */
 .carousel-cell:before {
   display: block;
   text-align: center;
@@ -28,7 +27,7 @@ html { overflow-y: scroll; }
   line-height: 200px;
   font-size: 80px;
   color: white;
-}
+} */
 
 .landingPage img {
   width: 100%;
