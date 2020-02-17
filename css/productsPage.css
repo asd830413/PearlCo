@@ -41,7 +41,7 @@ header {
   background: white;
   padding: 3%;
   letter-spacing: 1.5px;
-  color: #666666;
+  color: #666;
 }
 
 .introRight {
@@ -80,7 +80,7 @@ header {
 .allPrice {
   display: inline;
   font-size: 18px;
-  color: #666666;
+  color: #666;
   letter-spacing: 1.5px;
   line-height: 60px;
 }
@@ -142,7 +142,7 @@ header {
 
 .buy-btn a {
   display: block;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   line-height: 40px;
   font-size: 16px;

@@ -1,6 +1,6 @@
 header {
       border-top: 2px solid #4996eb;
-      box-shadow: 0 0 4px 0 #666666;
+      box-shadow: 0 0 4px 0 #666;
       position: fixed;
       height: 58px;
       width: 100%;
@@ -54,7 +54,7 @@ header {
     .logo h2 {
       display: inline;
       font-size: 16px;
-      color: #666666;
+      color: #666;
     }
 
     .logo p {

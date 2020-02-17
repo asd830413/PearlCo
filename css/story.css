@@ -37,10 +37,10 @@
   text-align: center;
 }
 
-.originText h2 {
+.originText h1 {
   font-size: 24px;
   letter-spacing: 1.5px;
-  color: #555555;
+  color: #555;
   line-height: 70px;
   font-weight: 700;
   text-align: center;
@@ -50,7 +50,7 @@
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 30px;
-  color: #666666;
+  color: #666;
 }
 
 .m_pearlcoOrigin {
@@ -79,7 +79,7 @@
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 30px;
-  color: #666666;
+  color: #666;
   text-align: center;
 }
 
@@ -105,7 +105,7 @@
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 30px;
-  color: #666666;
+  color: #666;
   text-align: center;
 }
 
@@ -137,7 +137,7 @@
     font-size: 16px;
     letter-spacing: 2px;
     line-height: 50px;
-    color: #666666;
+    color: #666;
     font-weight: bold;
     text-align: center;
   }
@@ -151,7 +151,7 @@
     font-size: 12px;
     letter-spacing: 2px;
     line-height: 30px;
-    color: #666666;
+    color: #666;
     text-align: center;
   }
 
