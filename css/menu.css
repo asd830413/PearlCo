@@ -79,6 +79,11 @@ header {
 
     .menuItem a {
       text-decoration: none;
+      display: block;
+    }
+
+    .menuItem a:visited {
+      color: #666;
     }
 
     .menuItem li {
@@ -86,10 +91,9 @@ header {
       margin-left:5%;
       letter-spacing: 2px;
       font-size: 14px;
-      color: #727272;
     }
 
-    .menuItem li:hover {
+    .menuItem a:hover {
       color: #4996eb;
     }
 
