@@ -45,8 +45,8 @@ section {
 
 .pearlcoPureWaterText {
   position: absolute;
-  top: 20%;
-  left: 9%;
+  top: 26%;
+  left: 10%;
   display: inline-block;
   font-size: 30px;
   color: #535353;
@@ -61,6 +61,20 @@ section {
 .noOne {
   letter-spacing: 2px;
   display: inline;
+}
+
+.absoluteClean {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  background: white;
+  opacity: 0.8;
+}
+
+.absoluteClean p {
+  color: #1865ba;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 
@@ -318,6 +332,14 @@ section {
     font-size: 30px;
   }
 
+  .absoluteClean {
+    left: 12%;
+  }
+
+  .absoluteClean p {
+    font-size: 38px;
+  }
+
   .pearlcoFilterTitle h3 {
     font-size: 32px;
   }
@@ -407,6 +429,10 @@ section {
     font-size: 24px;
   }
 
+  .absoluteClean p {
+    font-size: 30px;
+  }
+
   .pearlcoFilterTitle h3 {
     font-size: 26px;
   }
@@ -488,6 +514,10 @@ section {
     font-size: 16px;
   }
 
+   .absoluteClean p {
+    font-size: 23px;
+  }
+
   .pearlcoFilterTitle h3 {
     font-size: 18px;
   }
@@ -564,7 +594,7 @@ section {
   }
 
   .pearlcoPureWaterText {
-    top: 10%;
+    top: 18%;
     left: 10%;
   }
 
@@ -574,6 +604,14 @@ section {
 
   .pearlcoPureWaterText p {
     font-size: 12px;
+  }
+
+   .absoluteClean {
+    left: 10%;
+   }
+
+   .absoluteClean p {
+    font-size: 16px;
   }
 
   .pearlcoFilterTitle h3 {
