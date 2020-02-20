@@ -80,21 +80,23 @@ footer {
 
 @media (min-width: 375px) and (max-width: 479.98px) {
 .follow {
-  width: 68%;
+  width: 72%;
   text-align: left;
   margin-left: 2%;
+  letter-spacing: 0px;
 }
 
 .follow p {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .socialMedia {
-  width: 30%;
+  width: 26%;
+  text-align: right;
 }
 
 .socialMedia li {
-  margin-right: 10px;
+  margin-right: 12px;
 }
 
 .notification i {
