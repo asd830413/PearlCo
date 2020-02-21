@@ -75,6 +75,7 @@ section {
   color: #1865ba;
   font-size: 48px;
   font-weight: bold;
+  padding: 10px;
 }
 
 
@@ -191,7 +192,7 @@ section {
 }
 
 .pearlcoTastyTop {
-  line-height: 40px;
+  line-height: 60px;
   width: 80%;
   margin: 0 auto 40px auto;
 }
@@ -299,9 +300,6 @@ section {
   width: 310px;
 }
 
-.pearlcoHealthy {
-}
-
 .pearlcoHealthyText {
   text-align: center;
   line-height: 60px;
@@ -333,7 +331,7 @@ section {
   }
 
   .absoluteClean {
-    left: 12%;
+    left: 11%;
   }
 
   .absoluteClean p {
@@ -431,6 +429,7 @@ section {
 
   .absoluteClean p {
     font-size: 30px;
+    padding: 8px;
   }
 
   .pearlcoFilterTitle h3 {
@@ -607,11 +606,12 @@ section {
   }
 
    .absoluteClean {
-    left: 10%;
+    left: 9%;
    }
 
    .absoluteClean p {
     font-size: 16px;
+    padding: 3px;
   }
 
   .pearlcoFilterTitle h3 {
