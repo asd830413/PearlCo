@@ -80,9 +80,6 @@ header {
     .menuItem a {
       text-decoration: none;
       display: block;
-    }
-
-    .menuItem a:visited {
       color: #666;
     }
 
