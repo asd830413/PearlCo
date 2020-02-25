@@ -2,8 +2,8 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://pearlco.com.tw/</loc>
-      <lastmod>2020-02-21</lastmod>
+      <loc>https://pearlco.com.tw</loc>
+      <lastmod>2020-02-25</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1</priority>
    </url>
@@ -24,7 +24,7 @@
 
    <url>
       <loc>https://pearlco.com.tw/products/category.html</loc>
-      <lastmod>2020-01-24</lastmod>
+      <lastmod>2020-02-25</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.9</priority>
    </url>
