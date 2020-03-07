@@ -318,6 +318,72 @@ section {
   letter-spacing: 2px;
 }
 
+.followUs {
+  text-align: center;
+
+  width: 100%;
+}
+
+.followTitle {
+  text-align: center;
+  margin: 50px 0;
+  line-height: 60px;
+}
+
+.followTitle h3 {
+  font-size: 40px;
+  color: #3774b8;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.followTitle p {
+  font-size: 25px;
+  color: #666;
+  letter-spacing: 2px;
+}
+
+.fanpages {
+  display: inline-block;
+  width: 31%;
+  line-height: 30px;
+  margin: 0 5px 50px 5px;
+}
+
+.fanpages a {
+  text-decoration: none;
+}
+
+.fanpages img {
+  width: 420px;
+  border-radius: 3px;
+}
+
+.fanpages img:hover {
+  opacity: 0.8;
+}
+
+.fanpages h3 {
+  color: black;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.fanpages p {
+  color: #666;
+  font-size: 16px;
+  letter-spacing: 2px;
+  width: 84%;
+  margin: 10px auto 0 auto;
+}
+
+@media (max-width: 1350px) {
+  .fanpages img {
+    width: 380px;
+}
+}
+
 
 @media (max-width: 1200px) {
 
@@ -401,6 +467,18 @@ section {
 
   .pearlcoHealthyText h2 {
     font-size: 22px;
+  }
+
+  .followTitle h3 {
+    font-size: 32px;
+  }
+
+  .followTitle p {
+    font-size: 22px;
+  }
+
+  .fanpages img {
+    width: 320px;
   }
 }
 
@@ -496,6 +574,26 @@ section {
     font-size: 19px;
   }
 
+    .followTitle h3 {
+    font-size: 26px;
+  }
+
+  .followTitle p {
+    font-size: 19px;
+  }
+
+  .fanpages img {
+    width: 235px;
+  }
+
+  .fanpages h3 {
+    font-size: 18px;
+  }
+
+  .fanpages p {
+    font-size: 15px;
+  }
+
 }
 
 @media (max-width: 767.98px) {
@@ -582,6 +680,30 @@ section {
 
   .pearlcoHealthyText h2 {
     font-size: 14px;
+  }
+
+  .followTitle h3 {
+    font-size: 18px;
+  }
+
+  .followTitle p {
+    font-size: 14px;
+  }
+
+  .fanpages {
+    width: 100%;
+  }
+
+  .fanpages img {
+    width: 560px;
+  }
+
+  .fanpages h3 {
+    font-size: 18px;
+  }
+
+  .fanpages p {
+    font-size: 15px;
   }
 }
 
@@ -686,12 +808,40 @@ section {
     font-size: 12px;
   }
 
+  .followTitle {
+    line-height: 40px;
+  }
+
+  .followTitle h3 {
+    font-size: 14px;
+  }
+
+  .followTitle p {
+    font-size: 12px;
+  }
+
+  .fanpages img {
+    width: 470px;
+  }
+
+  .fanpages h3 {
+    font-size: 18px;
+  }
+
+  .fanpages p {
+    font-size: 15px;
+  }
+
 }
 
 @media (max-width: 479.98px) {
 
   .filterContainer {
     width: 375px;
+  }
+
+  .fanpages img {
+    width: 365px;
   }
 
 }
