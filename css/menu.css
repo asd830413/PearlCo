@@ -103,140 +103,102 @@ header {
   display: none;
 } */
 
-@media (min-width: 375px) and (max-width: 479.98px) {
-
+@media (max-width: 1700px) {
   .container {
-    width: 360px;
+    width:1000px
   }
-
-  .logoFrame {
-      width: 20%;
-    }
-
-    .logo h2 {
-      display: none;
-    }
-
-    .logo p {
-      display: none;
-    }
-
-    .logo img {
-      width: 50px;
-    }
-
-    .menuItem {
-      width: 80%;
-    }
-
-    .menuItem li {
-      font-size: 12px;
-      letter-spacing: 1px;
-    }
-
 }
 
-@media (min-width: 480px) and (max-width: 575.98px) {
-
-  .container {
-    width: 460px;
-  }
-
-  .logoFrame {
-      width: 20%;
-    }
-
-    .logo h2 {
-      display: none;
-    }
-
-    .logo p {
-      display: none;
-    }
-
-    .logo img {
-      width: 80px;
-    }
-
-    .menuItem {
-      width: 80%;
-    }
-
-    .menuItem li {
-      font-size: 13px;
-      letter-spacing: 1px;
-    }
-
-}
-
-
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 991.98px) {
     .container {
-      width:500px;
+      width:740px
     }
 
     .logoFrame {
-      width: 30%;
-    }
+      width: 46%;
 
-    .logo h2 {
-      display: none;
-    }
-
-    .logo p {
-      display: none;
     }
 
     .menuItem {
-      width: 70%;
+      width: 54%;
+
     }
 
-    .menuItem li {
-      font-size: 13px;
-    }
-
-  }
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .container {
-      width:740px;
-    }
-
-    .logoFrame {
-      width: 48%;
-    }
-
-    .menuItem {
-      width: 52%;
-    }
-
-
-  }
-
-  @media (min-width: 992px) and (max-width: 1199.98px) {
-    .container {
-      width:970px
-    }
-
-.logoFrame {
-  width: 35%;
-  margin-left: 5%;
 }
 
-.menuItem {
-  width: 55%;
-  margin-right: 5%;
+
+@media (max-width: 767.98px) {
+  .container {
+    width:560px;
+  }
+
+  .logoFrame {
+    width: 36%;
+  }
+
+  .logo h2 {
+    display: none;
+  }
+
+  .logo p {
+    display: none;
+  }
+
+  .menuItem {
+    width: 64%;
+  }
+
+
 }
 
+
+@media (max-width: 575.98px) {
+  .container {
+    width:350px;
   }
 
-
-
-  @media (min-width: 1200px) {
-    .container {
-      width:1000px
-    }
+  .logoFrame {
+    width: 18%;
   }
+
+  .logo img {
+    width: 50px;
+  }
+
+  .logo h2 {
+    display: none;
+  }
+
+  .logo p {
+    display: none;
+  }
+
+  .menuItem {
+    width: 82%;
+    text-align: left;
+  }
+
+  .menuItem li {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
