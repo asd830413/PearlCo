@@ -15,5 +15,11 @@ footer {
   color: white;
 }
 
+.copyright mark {
+  font-size: 12px;
+  color: white;
+  background: #225791;
+}
+
 
 
